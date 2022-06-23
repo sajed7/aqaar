@@ -1,1 +1,7 @@
-/sass/libs
+*.map
+images/
+fonts/
+js/jquery-1.11.1.min.js
+js/plugins.js
+sass/libs/bootstrap-grid
+
