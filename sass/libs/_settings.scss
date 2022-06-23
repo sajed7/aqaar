@@ -1,0 +1,23 @@
+// Font family
+
+@font-face {
+    font-family: Kufi;
+    src: url(/fonts/Reem_Kufi/ReemKufi-VariableFont_wght.woff2)
+}
+@font-face {
+    font-family: Cairo;
+    src: url(/fonts/Cairo/Cairo-VariableFont_wght.woff2)
+}
+$primary-font      : Cairo;
+$secondary-font    : Kufi;
+// Color Variables
+$accent-color : #b79e69;
+$primary-color : $accent-color;
+$secondary-color : #262322;
+
+$strong-color : #54504e;
+$body-color : #7b7674;
+
+// Grid system
+$grid-columns : 12 !default;
+$grid-gutter-width : 30px !default;
